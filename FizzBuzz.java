@@ -7,6 +7,7 @@ public class FizzBuzz{
 		System.out.println("Please input an integer: ");
 		int x = in.nextInt();
 		System.out.println(fizzBuzz(x));
+		in.close();
 	}
 	public static String fizzBuzz(int i){
 		String ret = "";
